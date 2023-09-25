@@ -54,3 +54,17 @@ function loadjs()
     wp_enqueue_script('customjs');
 }
 add_action('wp_enqueue_scripts', 'loadjs');
+
+/**
+ * Add menu option in your Theme
+ * After register where you can place that menu
+ * At last you can tell wordpress where to assign that menu and connect the top-menu or fotter-menu hook
+ * As we want top-menu in our head of every file, therefore for logical reasons we will be coding it in header.php
+ */
+add_theme_support('menus');
+register_nav_menus(
+    array(
+        'top-menu' => __('Top Menu', 'theme'),
+        'footer-menu' => __('Footer Menu', 'theme'),
+    )
+);
