@@ -1,8 +1,8 @@
-# WordPress Theme Development README
+# 📌WordPress Theme Development
 
 This README.md file provides an overview of the file structure and the purpose of each file in a WordPress theme development project.
 
-## Theme Folder Structure
+## 💡Theme Folder Structure
 
 ```
 theme-folder/
@@ -54,7 +54,7 @@ The `single.php` file is used to display individual blog posts when viewing them
 
 `style.css` is the main stylesheet for your WordPress theme. It contains the CSS rules that define the theme's appearance, layout, and styling.
 
-## Getting Started
+## 💡Getting Started
 
 To start developing your WordPress theme, you can follow these steps:
 
@@ -72,7 +72,7 @@ To start developing your WordPress theme, you can follow these steps:
 
 7. Test your theme across different devices and browsers to ensure responsiveness and compatibility.
 
-## Additional Resources
+## 💡Additional Resources
 
 - [WordPress Theme Developer Handbook](https://developer.wordpress.org/themes/)
 - [WordPress Codex](https://codex.wordpress.org/)
