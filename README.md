@@ -1,6 +1,6 @@
 # 📌WordPress Theme Development
 
-This README.md file provides an overview of the file structure and the purpose of each file in a WordPress theme development project.
+WordPress theme development involves creating a custom design and layout for your WordPress website. Themes are a collection of template files, stylesheets, and sometimes JavaScript files that determine how your website looks and behaves. PHP is a crucial part of WordPress themes as it's used to generate dynamic content and interact with the WordPress core.
 
 ## 💡Theme Folder Structure
 
